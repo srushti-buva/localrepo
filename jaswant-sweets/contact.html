@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact & Bulk Orders | Jaswant Sweets Ujaliwadi</title>
+<meta name="description" content="Contact Jaswant Sweets Ujaliwadi or send a bulk order inquiry for weddings, birthdays, festivals and corporate events.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="Jaswant Sweets logo" width="40" height="40"><span>Jaswant Sweets Ujaliwadi</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+    <nav aria-label="Main navigation"><ul class="nav-menu" id="nav-menu"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="faq.html">FAQ</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav>
+  </div>
+</header>
+<section class="page-banner"><div class="container"><h1>Contact Us</h1><p>We would love to hear from you</p></div></section>
+<main id="main">
+
+<section class="section"><div class="container contact-grid">
+  <div class="info-card"><h2>Jaswant Sweets Ujaliwadi</h2>
+    <ul><li><strong>Address:</strong> Main Road, Ujaliwadi, Maharashtra, India</li><li><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></li>
+    <li><strong>Email:</strong> <a href="mailto:info@jaswantsweets.example">info@jaswantsweets.example</a></li><li><strong>Hours:</strong> Open daily, 8:00 AM to 9:30 PM</li></ul>
+    <iframe class="map" title="Map of Ujaliwadi" loading="lazy" src="https://www.google.com/maps?q=Ujaliwadi,Maharashtra&output=embed"></iframe></div>
+  <form class="form" id="contact-form" data-validate data-success="Thank you! Your message has been submitted." novalidate>
+    <h2>Send us a message</h2>
+    <div class="form-row"><div class="field"><label for="c-name">Name *</label><input id="c-name" name="c-name" type="text" required autocomplete="name"><span class="error" role="alert"></span></div><div class="field"><label for="c-email">Email *</label><input id="c-email" name="c-email" type="email" required autocomplete="email"><span class="error" role="alert"></span></div></div>
+    <div class="form-row"><div class="field"><label for="c-phone">Phone *</label><input id="c-phone" name="c-phone" type="tel" required data-type="phone" autocomplete="tel"><span class="error" role="alert"></span></div><div class="field"><label for="c-subject">Subject *</label><input id="c-subject" name="c-subject" type="text" required data-minlength="3"><span class="error" role="alert"></span></div></div>
+    <div class="field"><label for="c-message">Message *</label><textarea id="c-message" name="c-message" rows="4" required data-minlength="10"></textarea><span class="error" role="alert"></span></div>
+    <button class="btn btn--dark" type="submit">Send message</button>
+    <p class="form-success" role="status"></p>
+    <p class="note">This demo site has no backend. Your details are not stored or sent anywhere.</p>
+  </form>
+</div></section>
+<section class="section section--tint" id="bulk"><div class="container">
+  <div class="section-head section-head--center"><h2>Bulk order inquiry</h2><p>Planning an event? Share the details and we will call you with a quote.</p></div>
+  <form class="form" id="bulk-form" style="max-width:820px;margin-inline:auto" data-validate data-success="Thank you! Your bulk order inquiry has been submitted." novalidate>
+    <div class="form-row"><div class="field"><label for="b-name">Customer name *</label><input id="b-name" name="b-name" type="text" required autocomplete="name"><span class="error" role="alert"></span></div><div class="field"><label for="b-email">Email *</label><input id="b-email" name="b-email" type="email" required autocomplete="email"><span class="error" role="alert"></span></div></div>
+    <div class="form-row"><div class="field"><label for="b-phone">Phone number *</label><input id="b-phone" name="b-phone" type="tel" required data-type="phone" autocomplete="tel"><span class="error" role="alert"></span></div><div class="field"><label for="b-event">Event type *</label><select id="b-event" name="b-event" required><option value="">Select</option><option value="Wedding">Wedding</option><option value="Birthday">Birthday</option><option value="Festival">Festival</option><option value="Corporate Event">Corporate Event</option><option value="Other">Other</option></select><span class="error" role="alert"></span></div></div>
+    <div class="form-row"><div class="field"><label for="b-product">Product *</label><select id="b-product" name="b-product" required><option value="">Select</option><option value="Kaju Katli">Kaju Katli</option><option value="Gulab Jamun">Gulab Jamun</option><option value="Rasgulla">Rasgulla</option><option value="Motichoor Laddu">Motichoor Laddu</option><option value="Besan Laddu">Besan Laddu</option><option value="Jalebi">Jalebi</option><option value="Pedha">Pedha</option><option value="Mysore Pak">Mysore Pak</option><option value="Shrikhand">Shrikhand</option><option value="Milk Cake">Milk Cake</option><option value="Dry Fruit Laddu">Dry Fruit Laddu</option><option value="Karanji">Karanji</option></select><span class="error" role="alert"></span></div><div class="field"><label for="b-qty">Quantity (kg) *</label><input id="b-qty" name="b-qty" type="number" required min="5" step="1"><span class="error" role="alert"></span></div></div>
+    <div class="form-row"><div class="field"><label for="b-date">Required date *</label><input id="b-date" name="b-date" type="date" required ><span class="error" role="alert"></span></div><div class="field"><label for="b-delivery">Delivery or pickup *</label><select id="b-delivery" name="b-delivery" required><option value="">Select</option><option value="Delivery">Delivery</option><option value="Pickup">Pickup</option></select><span class="error" role="alert"></span></div></div>
+    <div class="field"><label for="b-notes">Additional requirements</label><textarea id="b-notes" name="b-notes" rows="4"  ></textarea><span class="error" role="alert"></span></div>
+    <button class="btn btn--dark" type="submit">Submit inquiry</button>
+    <p class="form-success" role="status"></p>
+    <p class="note">This demo site has no backend. Your details are not stored or sent anywhere.</p>
+  </form>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><h3>Jaswant Sweets Ujaliwadi</h3><p>Traditional Indian sweets made fresh every day with pure ghee, fresh milk and quality dry fruits.</p>
+      <div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">in</a><a href="#" aria-label="WhatsApp">wa</a></div></div>
+    <div><h3>Quick links</h3><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="faq.html">FAQ</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div><h3>Contact</h3><ul><li>Main Road, Ujaliwadi, Maharashtra, India</li><li><a href="tel:+919876543210">+91 98765 43210</a></li><li><a href="mailto:info@jaswantsweets.example">info@jaswantsweets.example</a></li><li>Open daily, 8:00 AM to 9:30 PM</li></ul></div>
+  </div>
+  <div class="container copyright">&copy; 2026 Jaswant Sweets Ujaliwadi. All rights reserved.</div>
+</footer>
+<div id="toast-container" class="toast-container" aria-live="polite"></div>
+<button id="to-top" class="to-top" aria-label="Scroll to top">&uarr;</button>
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image preview"><button class="lightbox-close" aria-label="Close preview">&times;</button><img src="" alt=""><p></p></div>
+<script src="js/script.js"></script>
+</body>
+</html>
